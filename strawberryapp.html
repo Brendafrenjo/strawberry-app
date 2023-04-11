@@ -10,6 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Strawberry Weather App</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -20,7 +21,15 @@
         <li id="current-time">time</li>
         <li>descriiption</li>
         <div class="row">
-          <div class="col-6">temp</div>
+          <div class="col-6">
+            <div class="weather-temp">
+              <span id="current-temperature"></span>
+              <span>
+                <a href="#" class="active" id="celsius-link">°C </a>|
+                <a href="#" id="fahrenheit-link">°F</a></span
+              >
+            </div>
+          </div>
           <div class="col-6">
             humidity
             <div>wind</div>

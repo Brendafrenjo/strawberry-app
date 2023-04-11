@@ -13,3 +13,13 @@ body {
 li {
   list-style: none;
 }
+
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+.weather-temp .active {
+  color: black;
+  cursor: default;
+}
