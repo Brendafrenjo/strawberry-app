@@ -1,0 +1,15 @@
+body {
+  max-width: 600px;
+  display: block;
+  margin: 30px auto;
+}
+
+.strawberryapp {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+}
